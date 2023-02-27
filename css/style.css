@@ -1,0 +1,57 @@
+:root {
+    /* Color styles */
+--dark-blue: #2C3E50;
+--light-green: #1ABC9C;
+--white: #FFFFFF;
+--dark-grey: #333333;
+--light-blue: #3A546D;
+}
+
+    /* GENERAL */
+header {
+    background-color: var(--dark-blue);
+}
+
+main {
+    background-color: var(--white);
+}
+
+#hero {
+    background-color: var(--light-green);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.toggler-color {
+    color: var(--dark-grey);
+    border: 1px #DDDDDD solid;
+}
+
+    /* UTILITIES */
+.text-700 {
+    font-weight: 600;
+}
+
+.line {
+    width: 3rem;
+    height: 1px;
+    border-radius: 25px;
+}
+
+.white-line {
+    border: 1px solid var(--white);
+}
+
+.fa-star {
+    font-size: 1.2rem;
+    margin: 0 0.3rem;
+}
+
+    /* Hero */
+#avatar {
+    width: 10rem;
+    height: 12rem;
+}
