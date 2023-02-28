@@ -61,6 +61,39 @@ img {
     background-color: var(--light-green);
 }
 
+.bl-bg-light {
+    background-color: var(--light-blue);
+}
+
+.bl-bg-dark {
+    background-color: var(--dark-blue);
+}
+
+.bl-text-green {
+    color: var(--light-green);
+}
+
+.fs-8 {
+    font-size: 0.7rem;
+}
+
+.rounded-box {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.position-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .fa-star {
     font-size: 1.2rem;
     margin: 0 0.5rem;
