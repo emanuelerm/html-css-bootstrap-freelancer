@@ -20,6 +20,10 @@ main {
     background-color: var(--light-green);
 }
 
+#about {
+    background-color: var(--light-green);
+}
+
 img {
     width: 100%;
     height: auto;
@@ -31,12 +35,12 @@ img {
 }
 
     /* UTILITIES */
-.text-700 {
+.text-600 {
     font-weight: 600;
 }
 
 .line {
-    width: 3rem;
+    width: 4rem;
     height: 1px;
     border-radius: 25px;
 }
@@ -45,13 +49,47 @@ img {
     border: 1px solid var(--white);
 }
 
+.dark-line {
+    border: 1px solid var(--dark-grey);
+}
+
+.bl-text-dark {
+    color: var(--dark-grey);
+}
+
 .fa-star {
     font-size: 1.2rem;
-    margin: 0 0.3rem;
+    margin: 0 0.5rem;
 }
 
     /* Hero */
+#hero {
+    margin-top: 56px;
+}
+    
 #avatar {
     width: 10rem;
     height: 12rem;
+}
+
+
+    /* HOVER */
+#portfolio .image::after {
+    content: "+";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1abc9ca6;
+    color: var(--white);
+    opacity: 0;
+}
+
+#portfolio .image:hover::after {
+    opacity: 1;
 }

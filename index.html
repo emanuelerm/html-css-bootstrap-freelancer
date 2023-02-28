@@ -15,25 +15,25 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-sm">
+    <header class="fixed-top">
+        <div class="container">
             <nav class="navbar navbar-expand-md">
-                <a class="navbar-brand text-uppercase text-700 text-white" href="#">start bootsrtap</a>
+                <a class="navbar-brand text-uppercase text-600 text-white" href="#">start bootsrtap</a>
                 <button class="navbar-toggler toggler-color" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white text-uppercase" aria-current="page" href="#">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Features</a>
+                            <a class="nav-link text-white text-uppercase" href="#">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Pricing</a>
+                            <a class="nav-link text-white text-uppercase" href="#">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -43,10 +43,10 @@
 
     <main>
         <section id="hero">
-            <div class="container-sm">
+            <div class="container">
                 <div class="row">
                     <div class="col text-center">
-                        <div id="avatar" class="mx-auto d-block">
+                        <div id="avatar" class="mx-auto d-block mt-3">
                             <img src="./img/avatar.svg" alt="avatar">
                         </div>
                         <h2 class="text-uppercase text-white">start bootstrap</h2>
@@ -55,7 +55,101 @@
                             <i class="fa-solid fa-star text-white"></i>
                             <div class="line white-line"></div>
                         </span>
-                        <p class="text-white text-uppercase">graphic artist - web designer - illustrator</p>
+                        <p class="text-white text-uppercase mt-2">graphic artist - web designer - illustrator</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row text-center pb-5">
+                    <h3 class="text-uppercase bl-text-dark mt-3">portfolio</h3>
+                    <span class="line-star d-flex align-items-center justify-content-center">
+                        <div class="line dark-line"></div>
+                        <i class="fa-solid fa-star bl-text-dark"></i>
+                        <div class="line dark-line"></div>
+                    </span>
+                    <div class="col-12 col-md-6 col-lg-4 mt-3">
+                        <div class="image position-relative">
+                            <img src="./img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-3">
+                        <div class="image position-relative">
+                            <img src="./img/cake.png" alt="cake">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-3">
+                        <div class="image position-relative">
+                            <img src="./img/circus.png" alt="circus">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-3">
+                        <div class="image position-relative">
+                            <img src="./img/game.png" alt="game">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-3">
+                        <div class="image position-relative">
+                            <img src="./img/safe.png" alt="safe">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-3">
+                        <div class="image position-relative">
+                            <img src="./img/submarine.png" alt="submarine">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="text-uppercase text-white mt-3">about</h3>
+                    <span class="line-star d-flex align-items-center justify-content-center">
+                        <div class="line white-line"></div>
+                        <i class="fa-solid fa-star text-white"></i>
+                        <div class="line white-line"></div>
+                    </span>
+                    <div class="col-12 col-md-6 text-white">
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                            complete source files including <span class="text-uppercase">html</span>,
+                            <span class="text-uppercase">css</span>, and JavaScriptn as well as optional
+                            <span class="text-uppercase">less</span> stylesheets for easy customization.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 text-white">
+                        <p>Whether you're a student looking to showcase you work, a professional looking to attract
+                            clients, or a graphic srtist looking to share your projects, this template is the perfect
+                            starting point!
+                        </p>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-sm text-white" type="button"><i class="fa-solid fa-download"></i> Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact-me">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="text-uppercase bl-text-dark mt-3">contact me</h3>
+                    <span class="line-star d-flex align-items-center justify-content-center">
+                        <div class="line dark-line"></div>
+                        <i class="fa-solid fa-star bl-text-dark"></i>
+                        <div class="line dark-line"></div>
+                    </span>
+                    <div class="col-sm-12">
+                        <input type="name" class="form-control border-0 border-bottom" id="inputName" placeholder="Name" aria-label="Name">
+                        <input type="email" class="form-control border-0 border-bottom" id="inputEmail" placeholder="Email Address" aria-label="Email Address">
+                        <input type="tel" class="form-control border-0 border-bottom" id="inputPhone" placeholder="Phone Number" aria-label="Phone Number">
+                        <textarea name="message" class="form-control border-0 border-bottom" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                     </div>
                 </div>
             </div>
@@ -63,7 +157,7 @@
     </main>
 
     <footer>
-        <div class="container-sm"></div>
+        <div class="container"></div>
     </footer>
 
 
